@@ -1,0 +1,26 @@
+{
+    "name": "jason-chang/color-console",
+    "description": "It's a library for php to output colorful words in the console.",
+    "keywords": ["color","console","cli"],
+    "license": "MIT",
+    "homepage": "https://github.com/jason-chang/color-console",
+    "authors": [
+        {
+            "name": "Jason chang",
+            "email": "chaoyue.chang@qq.com",
+            "homepage": "http://icoding.so",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JasonChang\\ColorConsole\\": "src/ColorConsole/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
